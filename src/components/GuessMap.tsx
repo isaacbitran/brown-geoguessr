@@ -103,7 +103,7 @@ export default function GuessMap({ expanded, onExpand, onPin, onSubmit, pin }: P
       onMouseLeave={() => setIsHovered(false)}
       onClick={onExpand}
     >
-      <div className="absolute inset-0 border border-rule shadow-sm bg-white overflow-hidden">
+      <div className="absolute inset-0 border-2 border-brick shadow-sm bg-white overflow-hidden">
         {error ? (
           <div className="absolute inset-0 flex items-center justify-center p-3 text-center text-xs text-warmgray">
             Map failed to load: {error}

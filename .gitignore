@@ -7,3 +7,5 @@ dist
 .DS_Store
 .claude/
 tsconfig.tsbuildinfo
+scripts/*.png
+Screenshot*.png
