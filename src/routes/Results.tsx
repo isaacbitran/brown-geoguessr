@@ -95,19 +95,16 @@ export default function Results() {
       </div>
 
       <section className="w-full max-w-md flex flex-col gap-4">
-        <div
-          role="tablist"
-          className="flex justify-center gap-8 border-b border-rule"
-        >
+        <div role="tablist" className="flex justify-center gap-8">
           <button
             role="tab"
             aria-selected={tab === 'leaderboard'}
             type="button"
             onClick={() => setTab('leaderboard')}
-            className={`font-serif italic text-lg md:text-xl pb-2 -mb-px border-b-2 transition-colors ${
+            className={`font-ui uppercase tracking-widest text-xs py-1 transition-colors ${
               tab === 'leaderboard'
-                ? 'border-brick text-brick'
-                : 'border-transparent text-warmgray hover:text-ink'
+                ? 'text-brick'
+                : 'text-warmgray hover:text-ink'
             }`}
           >
             Leaderboard
@@ -117,13 +114,11 @@ export default function Results() {
             aria-selected={tab === 'rounds'}
             type="button"
             onClick={() => setTab('rounds')}
-            className={`font-serif italic text-lg md:text-xl pb-2 -mb-px border-b-2 transition-colors ${
-              tab === 'rounds'
-                ? 'border-brick text-brick'
-                : 'border-transparent text-warmgray hover:text-ink'
+            className={`font-ui uppercase tracking-widest text-xs py-1 transition-colors ${
+              tab === 'rounds' ? 'text-brick' : 'text-warmgray hover:text-ink'
             }`}
           >
-            Your Rounds
+            Rounds
           </button>
         </div>
 

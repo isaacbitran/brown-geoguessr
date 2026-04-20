@@ -79,7 +79,7 @@ export default function Home() {
         {totalPlays !== null && totalPlays > 0 && (
           <p className="font-serif italic text-warmgray text-sm">
             <span className="tabular text-ink">{totalPlays.toLocaleString()}</span>{' '}
-            {totalPlays === 1 ? 'play' : 'plays'} so far
+            {totalPlays === 1 ? 'play' : 'plays'}
           </p>
         )}
         <Link
