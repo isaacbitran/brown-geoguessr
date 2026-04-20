@@ -112,7 +112,7 @@ export default function Results() {
       <section className="w-full max-w-md">
         <div className="flex items-center gap-3 mb-3">
           <span className="h-px flex-1 bg-rule" aria-hidden />
-          <h2 className="font-serif italic text-lg text-ink whitespace-nowrap">
+          <h2 className="font-serif italic text-xl md:text-2xl text-brick whitespace-nowrap">
             Today's Leaderboard
           </h2>
           <span className="h-px flex-1 bg-rule" aria-hidden />
