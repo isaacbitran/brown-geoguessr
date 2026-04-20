@@ -38,14 +38,22 @@ export default function Results() {
   const [tab, setTab] = useState<'leaderboard' | 'rounds'>('leaderboard');
   const watermarkRef = useRef<HTMLDivElement>(null);
 
+  // Rounds tab uses JS parallax (short pages work better with scrollY * k).
+  // Leaderboard uses CSS scroll-timeline (applied via the parallax-watermark class).
   useEffect(() => {
+    const el = watermarkRef.current;
+    if (!el) return;
+    if (tab !== 'rounds') {
+      el.style.transform = '';
+      return;
+    }
     let raf = 0;
     const update = () => {
       raf = 0;
-      const el = watermarkRef.current;
-      if (!el) return;
-      el.style.transform = `translate3d(0, ${window.scrollY * -0.02}px, 0)`;
+      if (!watermarkRef.current) return;
+      watermarkRef.current.style.transform = `translate3d(0, ${window.scrollY * -0.02}px, 0)`;
     };
+    update();
     const onScroll = () => {
       if (raf) return;
       raf = requestAnimationFrame(update);
@@ -55,7 +63,7 @@ export default function Results() {
       window.removeEventListener('scroll', onScroll);
       if (raf) cancelAnimationFrame(raf);
     };
-  }, []);
+  }, [tab]);
 
   useEffect(() => {
     if (!hasPlayedToday(today)) {
@@ -95,12 +103,12 @@ export default function Results() {
 
   return (
     <>
-      {/* Watermark — slow parallax Brown crest */}
+      {/* Watermark — leaderboard: CSS scroll-timeline. Rounds: JS scroll × 0.02 */}
       <div
         ref={watermarkRef}
         aria-hidden
-        className="fixed inset-0 z-0 pointer-events-none flex items-center justify-center overflow-hidden"
-        style={{ willChange: 'transform' }}
+        className={`${tab === 'leaderboard' ? 'parallax-watermark' : ''} fixed inset-0 z-0 pointer-events-none flex items-center justify-center overflow-hidden`}
+        style={tab === 'rounds' ? { willChange: 'transform' } : undefined}
       >
         <img
           src="/brown-logo.png"
@@ -231,28 +239,40 @@ export default function Results() {
                     <li
                       key={`${row.username}-${row.created_at}`}
                       className={`grid grid-cols-[2.5rem_1fr_5.5rem] items-baseline gap-4 border-b border-[#E5DDC9] py-3.5 ${
-                        isMe ? 'bg-brick/[0.25]' : ''
+                        isMe ? 'bg-brick px-3 -mx-3' : ''
                       }`}
                     >
                       <span
-                        className={`font-serif tabular text-right font-semibold ${rankColor} ${rankSize}`}
+                        className={`font-serif tabular text-right font-semibold ${rankSize} ${
+                          isMe ? 'text-cream' : rankColor
+                        }`}
                       >
                         {rank}
                       </span>
                       <span
-                        className={`font-body text-base truncate text-ink ${
-                          isMe || isFirst ? 'font-semibold' : ''
+                        className={`font-body text-base truncate ${
+                          isMe
+                            ? 'text-cream font-semibold'
+                            : `text-ink ${isFirst ? 'font-semibold' : ''}`
                         }`}
                       >
                         {row.username}
                       </span>
                       <span
                         className={`font-body tabular text-base text-right ${
-                          isFirst ? 'text-brick font-semibold' : 'text-ink/85'
-                        } ${isMe ? 'font-semibold text-ink' : ''}`}
+                          isMe
+                            ? 'text-cream font-semibold'
+                            : isFirst
+                              ? 'text-brick font-semibold'
+                              : 'text-ink/85'
+                        }`}
                       >
                         {Math.round(row.total_m).toLocaleString()}
-                        <span className="text-warmgray/60 ml-1 font-ui text-sm">
+                        <span
+                          className={`ml-1 font-ui text-sm ${
+                            isMe ? 'text-cream/70' : 'text-warmgray/60'
+                          }`}
+                        >
                           m
                         </span>
                       </span>

@@ -19,5 +19,20 @@
     font-variant-caps: all-small-caps;
     letter-spacing: 0.08em;
   }
+
+  /* Parallax watermark — driven by the compositor via scroll-linked animation.
+     Total travel is fixed (100px) across the full scroll range, regardless
+     of page length. Falls back to stationary in browsers without support. */
+  @supports (animation-timeline: scroll()) {
+    @keyframes parallax-watermark-drift {
+      from { transform: translate3d(0, 0, 0); }
+      to   { transform: translate3d(0, -100px, 0); }
+    }
+    .parallax-watermark {
+      animation: parallax-watermark-drift linear;
+      animation-timeline: scroll(root block);
+      will-change: transform;
+    }
+  }
 }
 
