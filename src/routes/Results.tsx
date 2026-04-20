@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { todayDateStr } from '../lib/daily';
 import { getLastResult, getStreak, getUsername, hasPlayedToday } from '../lib/storage';
@@ -36,36 +36,26 @@ export default function Results() {
   const [board, setBoard] = useState<LeaderboardRow[] | null>(null);
   const [boardError, setBoardError] = useState(false);
   const [tab, setTab] = useState<'leaderboard' | 'rounds'>('leaderboard');
-  const [translateY, setTranslateY] = useState(0);
+  const watermarkRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     let raf = 0;
-    const recompute = () => {
-      const maxScroll = Math.max(
-        1,
-        document.documentElement.scrollHeight - window.innerHeight
-      );
-      const progress = Math.min(
-        1,
-        Math.max(0, window.scrollY / maxScroll)
-      );
-      // Total travel = 15% of viewport height, mapped across full scroll range.
-      setTranslateY(-progress * window.innerHeight * 0.15);
+    const update = () => {
       raf = 0;
+      const el = watermarkRef.current;
+      if (!el) return;
+      el.style.transform = `translate3d(0, ${window.scrollY * -0.02}px, 0)`;
     };
-    const schedule = () => {
+    const onScroll = () => {
       if (raf) return;
-      raf = requestAnimationFrame(recompute);
+      raf = requestAnimationFrame(update);
     };
-    recompute();
-    window.addEventListener('scroll', schedule, { passive: true });
-    window.addEventListener('resize', schedule);
+    window.addEventListener('scroll', onScroll, { passive: true });
     return () => {
-      window.removeEventListener('scroll', schedule);
-      window.removeEventListener('resize', schedule);
+      window.removeEventListener('scroll', onScroll);
       if (raf) cancelAnimationFrame(raf);
     };
-  }, [tab, board]);
+  }, []);
 
   useEffect(() => {
     if (!hasPlayedToday(today)) {
@@ -105,14 +95,12 @@ export default function Results() {
 
   return (
     <>
-      {/* Watermark — parallax Brown crest, total travel scaled to page length */}
+      {/* Watermark — slow parallax Brown crest */}
       <div
+        ref={watermarkRef}
         aria-hidden
         className="fixed inset-0 z-0 pointer-events-none flex items-center justify-center overflow-hidden"
-        style={{
-          transform: `translate3d(0, ${translateY}px, 0)`,
-          willChange: 'transform',
-        }}
+        style={{ willChange: 'transform' }}
       >
         <img
           src="/brown-logo.png"
@@ -243,7 +231,7 @@ export default function Results() {
                     <li
                       key={`${row.username}-${row.created_at}`}
                       className={`grid grid-cols-[2.5rem_1fr_5.5rem] items-baseline gap-4 border-b border-[#E5DDC9] py-3.5 ${
-                        isMe ? 'bg-brick/[0.18]' : ''
+                        isMe ? 'bg-brick/[0.25]' : ''
                       }`}
                     >
                       <span
