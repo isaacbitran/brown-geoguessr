@@ -51,27 +51,6 @@ export default function Play() {
     }
   }, [mode, today, done, navigate]);
 
-  if (locations.length === 0) {
-    return (
-      <div className="min-h-full flex flex-col items-center justify-center gap-4 p-8 text-center">
-        <p className="smallcaps text-warmgray text-xs">No locations yet</p>
-        <h1 className="font-serif text-3xl">
-          Add some in the Curator first.
-        </h1>
-        <p className="text-warmgray max-w-md">
-          The daily needs at least 2 easy, 2 medium, and 1 hard location.
-        </p>
-        <button
-          type="button"
-          onClick={() => navigate('/curate')}
-          className="border border-ink px-6 py-3 font-ui uppercase tracking-widest text-xs hover:bg-ink hover:text-cream transition-colors"
-        >
-          Open Curator
-        </button>
-      </div>
-    );
-  }
-
   const location = locations[roundIdx];
 
   const submit = useCallback(

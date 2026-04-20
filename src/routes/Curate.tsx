@@ -11,6 +11,24 @@ import type { Difficulty, GameLocation } from '../types';
 const PROVIDENCE_CENTER = { lat: 41.8268, lng: -71.4025 };
 
 export default function Curate() {
+  if (!import.meta.env.DEV) {
+    return (
+      <div className="min-h-full flex flex-col items-center justify-center gap-4 p-8 text-center">
+        <p className="smallcaps text-warmgray text-xs">Unavailable</p>
+        <h1 className="font-serif text-3xl">The Curator is dev-only.</h1>
+        <p className="text-warmgray max-w-md">
+          Locations are curated locally and shipped with each deploy.
+        </p>
+        <Link
+          to="/"
+          className="border border-ink px-6 py-3 font-ui uppercase tracking-widest text-xs hover:bg-ink hover:text-cream transition-colors"
+        >
+          Home
+        </Link>
+      </div>
+    );
+  }
+
   const mapDivRef = useRef<HTMLDivElement | null>(null);
   const svDivRef = useRef<HTMLDivElement | null>(null);
   const mapRef = useRef<google.maps.Map | null>(null);
@@ -277,8 +295,7 @@ export default function Curate() {
                   onClick={() => {
                     const pano = panoRef.current;
                     if (!pano) return;
-                    if (l.panoId) pano.setPano(l.panoId);
-                    else pano.setPosition({ lat: l.lat, lng: l.lng });
+                    pano.setPosition({ lat: l.lat, lng: l.lng });
                     pano.setPov({ heading: l.heading, pitch: l.pitch });
                     pano.setVisible(true);
                     setHasSelection(true);

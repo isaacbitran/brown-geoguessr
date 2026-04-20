@@ -13,7 +13,7 @@ export function setUsername(name: string): void {
   localStorage.setItem(KEY_USERNAME, name.trim().slice(0, 20));
 }
 
-export function getLastPlayedDate(): string | null {
+function getLastPlayedDate(): string | null {
   return localStorage.getItem(KEY_LAST_PLAYED);
 }
 
