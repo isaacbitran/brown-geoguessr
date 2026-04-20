@@ -22,7 +22,12 @@ export default function Home() {
 
   return (
     <div className="min-h-full flex flex-col items-center justify-center gap-6 p-8 text-center">
-      <div className="flex flex-col items-center gap-2">
+      <div className="flex flex-col items-center gap-3">
+        <img
+          src="/brown-logo.jpg"
+          alt=""
+          className="w-24 h-24 md:w-28 md:h-28 object-contain mix-blend-multiply"
+        />
         <h1 className="font-serif text-5xl md:text-6xl font-semibold tracking-tight">
           Brown GeoGuessr
         </h1>
