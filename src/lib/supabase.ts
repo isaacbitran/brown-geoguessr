@@ -36,11 +36,9 @@ export async function fetchTodayLeaderboard(
   return data ?? [];
 }
 
-export async function fetchTotalPlays(): Promise<number> {
+export async function fetchTotalPlayers(): Promise<number> {
   if (!supabase) return 0;
-  const { count, error } = await supabase
-    .from('plays')
-    .select('*', { count: 'exact', head: true });
+  const { data, error } = await supabase.from('plays').select('username');
   if (error) throw error;
-  return count ?? 0;
+  return new Set((data ?? []).map((r) => r.username)).size;
 }

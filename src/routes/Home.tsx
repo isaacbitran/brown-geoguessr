@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { todayDateStr } from '../lib/daily';
 import { getUsername, getStreak, hasPlayedToday } from '../lib/storage';
-import { fetchTotalPlays } from '../lib/supabase';
+import { fetchTotalPlayers } from '../lib/supabase';
 import UsernameModal from '../components/UsernameModal';
 
 function formatDate(dateStr: string): string {
@@ -20,13 +20,13 @@ export default function Home() {
   const [username, setUsernameState] = useState(getUsername);
   const played = hasPlayedToday(today);
   const streak = getStreak();
-  const [totalPlays, setTotalPlays] = useState<number | null>(null);
+  const [totalPlayers, setTotalPlayers] = useState<number | null>(null);
 
   useEffect(() => {
     let cancelled = false;
-    fetchTotalPlays()
+    fetchTotalPlayers()
       .then((n) => {
-        if (!cancelled) setTotalPlays(n);
+        if (!cancelled) setTotalPlayers(n);
       })
       .catch(() => {});
     return () => {
@@ -76,10 +76,10 @@ export default function Home() {
       <div className="border-t border-rule w-full max-w-xs" />
 
       <div className="flex flex-col items-center gap-2">
-        {totalPlays !== null && totalPlays > 0 && (
+        {totalPlayers !== null && totalPlayers > 0 && (
           <p className="font-serif italic text-warmgray text-sm">
-            <span className="tabular text-ink">{totalPlays.toLocaleString()}</span>{' '}
-            {totalPlays === 1 ? 'play' : 'plays'}
+            <span className="tabular text-ink">{totalPlayers.toLocaleString()}</span>{' '}
+            {totalPlayers === 1 ? 'player' : 'players'}
           </p>
         )}
         <Link
