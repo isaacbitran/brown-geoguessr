@@ -243,7 +243,7 @@ export default function Results() {
                     <li
                       key={`${row.username}-${row.created_at}`}
                       className={`grid grid-cols-[2.5rem_1fr_5.5rem] items-baseline gap-4 border-b border-[#E5DDC9] py-3.5 ${
-                        isMe ? 'bg-brick/[0.13]' : ''
+                        isMe ? 'bg-brick/[0.18]' : ''
                       }`}
                     >
                       <span
