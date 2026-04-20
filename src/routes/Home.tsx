@@ -1,7 +1,8 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { todayDateStr } from '../lib/daily';
 import { getUsername, getStreak, hasPlayedToday } from '../lib/storage';
+import { fetchTotalPlays } from '../lib/supabase';
 import UsernameModal from '../components/UsernameModal';
 
 function formatDate(dateStr: string): string {
@@ -19,14 +20,27 @@ export default function Home() {
   const [username, setUsernameState] = useState(getUsername);
   const played = hasPlayedToday(today);
   const streak = getStreak();
+  const [totalPlays, setTotalPlays] = useState<number | null>(null);
+
+  useEffect(() => {
+    let cancelled = false;
+    fetchTotalPlays()
+      .then((n) => {
+        if (!cancelled) setTotalPlays(n);
+      })
+      .catch(() => {});
+    return () => {
+      cancelled = true;
+    };
+  }, []);
 
   return (
     <div className="min-h-full flex flex-col items-center justify-center gap-6 p-8 text-center">
       <div className="flex flex-col items-center gap-3">
         <img
-          src="/brown-logo.jpg"
+          src="/brown-logo.png"
           alt=""
-          className="w-24 h-24 md:w-28 md:h-28 object-contain mix-blend-multiply"
+          className="w-24 h-24 md:w-28 md:h-28 object-contain"
         />
         <h1 className="font-serif text-5xl md:text-6xl font-semibold tracking-tight">
           Brown GeoGuessr
@@ -62,6 +76,12 @@ export default function Home() {
       <div className="border-t border-rule w-full max-w-xs" />
 
       <div className="flex flex-col items-center gap-2">
+        {totalPlays !== null && totalPlays > 0 && (
+          <p className="font-serif italic text-warmgray text-sm">
+            <span className="tabular text-ink">{totalPlays.toLocaleString()}</span>{' '}
+            {totalPlays === 1 ? 'play' : 'plays'} so far
+          </p>
+        )}
         <Link
           to="/how"
           className="text-warmgray text-xs font-ui uppercase tracking-widest hover:text-ink"

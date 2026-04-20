@@ -25,7 +25,7 @@ export async function submitPlay(
 
 export async function fetchTodayLeaderboard(
   date: string,
-  limit = 10
+  limit = 20
 ): Promise<LeaderboardRow[]> {
   if (!supabase) return [];
   const { data, error } = await supabase
@@ -36,4 +36,13 @@ export async function fetchTodayLeaderboard(
     .limit(limit);
   if (error) throw error;
   return data ?? [];
+}
+
+export async function fetchTotalPlays(): Promise<number> {
+  if (!supabase) return 0;
+  const { count, error } = await supabase
+    .from('plays')
+    .select('*', { count: 'exact', head: true });
+  if (error) throw error;
+  return count ?? 0;
 }
