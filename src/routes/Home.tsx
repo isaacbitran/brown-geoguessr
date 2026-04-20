@@ -31,6 +31,9 @@ export default function Home() {
         <h1 className="font-serif text-5xl md:text-6xl font-semibold tracking-tight">
           Brown GeoGuessr
         </h1>
+        <p className="font-serif italic text-xl md:text-2xl text-ink/80">
+          How well do you know College Hill?
+        </p>
         <p className="text-warmgray font-body text-lg">{formatDate(today)}</p>
       </div>
 
