@@ -131,6 +131,11 @@ export default function Results() {
         {Math.round(total).toLocaleString()} m
       </h1>
 
+      {/* Countdown to next edition — tucked between score and playing-as */}
+      <p className="font-serif italic text-brick text-lg tabular -mt-2">
+        Next edition in <span className="font-extrabold">{countdown}</span>
+      </p>
+
       {/* Playing as + streak */}
       <div className="flex flex-col items-center gap-3">
         {username && (
@@ -146,26 +151,21 @@ export default function Results() {
         )}
       </div>
 
-      {/* Buttons + countdown — moved above the tabs */}
-      <div className="flex flex-col items-center gap-3">
-        <div className="flex gap-3 flex-wrap justify-center">
-          <Link
-            to="/play"
-            state={{ started: true, freeplay: true }}
-            className="bg-brick text-cream px-6 py-3 font-ui uppercase tracking-widest text-xs hover:bg-ink transition-colors"
-          >
-            Free Play
-          </Link>
-          <Link
-            to="/"
-            className="border border-ink px-6 py-3 font-ui uppercase tracking-widest text-xs hover:bg-ink hover:text-cream transition-colors"
-          >
-            Home
-          </Link>
-        </div>
-        <p className="text-warmgray/60 font-ui text-xs">
-          Next edition in {countdown}
-        </p>
+      {/* Buttons */}
+      <div className="flex gap-3 flex-wrap justify-center">
+        <Link
+          to="/play"
+          state={{ started: true, freeplay: true }}
+          className="bg-brick text-cream px-6 py-3 font-ui uppercase tracking-widest text-xs hover:bg-ink transition-colors"
+        >
+          Free Play
+        </Link>
+        <Link
+          to="/"
+          className="border border-ink px-6 py-3 font-ui uppercase tracking-widest text-xs hover:bg-ink hover:text-cream transition-colors"
+        >
+          Home
+        </Link>
       </div>
 
       {/* Tabs + content */}
