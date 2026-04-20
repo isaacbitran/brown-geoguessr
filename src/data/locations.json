@@ -1,0 +1,1946 @@
+[
+  {
+    "id": "loc_136f7505",
+    "lat": 41.826345,
+    "lng": -71.403581,
+    "panoId": "Z4TQoE4VlUnfNQ3E9NQqXg",
+    "heading": 0,
+    "pitch": 0,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_0047ac6e",
+    "lat": 41.825987,
+    "lng": -71.403496,
+    "panoId": "Zb8SC5gBFou-K9yKsxz21g",
+    "heading": 0,
+    "pitch": 0,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_36d89d64",
+    "lat": 41.825921,
+    "lng": -71.402723,
+    "panoId": "JCuQeuZtWeJwJwzfhzyIeA",
+    "heading": 170,
+    "pitch": -2,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_a90b4604",
+    "lat": 41.825784,
+    "lng": -71.403192,
+    "panoId": "dVsizZyzFfsShPi9YXil0Q",
+    "heading": 170,
+    "pitch": -2,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_8b186a51",
+    "lat": 41.82986,
+    "lng": -71.402457,
+    "panoId": "CAoSF0NJSE0wb2dLRUlDQWdJRHFyZnpaNXdF",
+    "heading": 0,
+    "pitch": 0,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_4ea221f1",
+    "lat": 41.830101,
+    "lng": -71.402974,
+    "panoId": "CrcDXYDIqTElv0nLPIqzCg",
+    "heading": 0,
+    "pitch": 0,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_e61d0b4d",
+    "lat": 41.82968,
+    "lng": -71.403494,
+    "panoId": "7FxP5efgmIgG8jvY_jqQLA",
+    "heading": 93,
+    "pitch": 5,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_d348ba55",
+    "lat": 41.829249,
+    "lng": -71.400622,
+    "panoId": "CAoSF0NJSE0wb2dLRUlDQWdJQ2F6dkNOc1FF",
+    "heading": 42,
+    "pitch": -9,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_42bb9073",
+    "lat": 41.829677,
+    "lng": -71.400372,
+    "panoId": "CAoSFkNJSE0wb2dLRUlDQWdJQ3NnTHV4Ymc.",
+    "heading": 358,
+    "pitch": -10,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_0537fdd9",
+    "lat": 41.829273,
+    "lng": -71.40019,
+    "panoId": "CAoSF0NJSE0wb2dLRUlDQWdJQ3NnTHZCMUFF",
+    "heading": 347,
+    "pitch": -15,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_850502fe",
+    "lat": 41.829283,
+    "lng": -71.399617,
+    "panoId": "IUMHLKXQse4bTJ4Rdwa1FA",
+    "heading": 200,
+    "pitch": 5,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_ed65e590",
+    "lat": 41.82915,
+    "lng": -71.3981,
+    "panoId": "CAoSF0NJSE0wb2dLRUlDQWdJQ2k0c2YyNUFF",
+    "heading": 92,
+    "pitch": -12,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_cfc8c83f",
+    "lat": 41.828206,
+    "lng": -71.398874,
+    "panoId": "CAoSFkNJSE0wb2dLRUlDQWdJRDRrSlRfS1E.",
+    "heading": 116,
+    "pitch": -8,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_4519a868",
+    "lat": 41.826076,
+    "lng": -71.397764,
+    "panoId": "CAoSFkNJSE0wb2dLRUlDQWdJQ1czOXlzUHc.",
+    "heading": 29,
+    "pitch": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_fd878b73",
+    "lat": 41.825646,
+    "lng": -71.399035,
+    "panoId": "bX4D0Zh8_T4XNcslfaB6uA",
+    "heading": 253,
+    "pitch": -10,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_699249c3",
+    "lat": 41.825586,
+    "lng": -71.399895,
+    "panoId": "Dr_fbPBmyr2RdZHDWjdr6w",
+    "heading": 22,
+    "pitch": 9,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_0cd07a20",
+    "lat": 41.825015,
+    "lng": -71.400581,
+    "panoId": "CAoSF0NJSE0wb2dLRUlDQWdJQzZfdG5yZ2dF",
+    "heading": 264,
+    "pitch": -13,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_3cd992fa",
+    "lat": 41.825007,
+    "lng": -71.399866,
+    "panoId": "-0KYo6eG-2QXN0TaDCB8FA",
+    "heading": 175,
+    "pitch": -13,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_f482a796",
+    "lat": 41.824778,
+    "lng": -71.400167,
+    "panoId": "PAHYk_lqcnfk2UrhqMu_2g",
+    "heading": 193,
+    "pitch": 4,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_cdc44fbc",
+    "lat": 41.824533,
+    "lng": -71.398392,
+    "panoId": "y1Dn2xCYdrsbxqhlEU3KoQ",
+    "heading": 275,
+    "pitch": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_e5fc2cc0",
+    "lat": 41.824986,
+    "lng": -71.40166,
+    "panoId": "CAoSF0NJSE0wb2dLRUlDQWdJQ2EzdkRoMGdF",
+    "heading": 84,
+    "pitch": 12,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_8c873455",
+    "lat": 41.825041,
+    "lng": -71.402185,
+    "panoId": "-cd-LcQn0atlnbg9EX6jwQ",
+    "heading": 96,
+    "pitch": 11,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_b7373c01",
+    "lat": 41.824583,
+    "lng": -71.401277,
+    "panoId": "Lr448yY48WKpGiKsE-qxTA",
+    "heading": 335,
+    "pitch": 5,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_dc35c987",
+    "lat": 41.824522,
+    "lng": -71.400929,
+    "panoId": "l2GP7RDEkQvXNMr7MUmasw",
+    "heading": 54,
+    "pitch": 3,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_944397de",
+    "lat": 41.824172,
+    "lng": -71.400663,
+    "panoId": "xZR8wKpkkFYfo8wUGujdFA",
+    "heading": 222,
+    "pitch": 12,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_9f3ce2b1",
+    "lat": 41.824775,
+    "lng": -71.40082,
+    "panoId": "qQXWeUcxQXPY7fRnm-BMRQ",
+    "heading": 222,
+    "pitch": 12,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_030b3c57",
+    "lat": 41.824233,
+    "lng": -71.401577,
+    "panoId": "gc-zW2Z-alsUfXeMc8GAng",
+    "heading": 102,
+    "pitch": 10,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_730c3722",
+    "lat": 41.823906,
+    "lng": -71.402606,
+    "panoId": "i3AvwFlS2tIa858fz7E6Ug",
+    "heading": 240,
+    "pitch": 6,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_b8193301",
+    "lat": 41.824951,
+    "lng": -71.403344,
+    "panoId": "DHZstfe1NkFL0liRf_2_WA",
+    "heading": 90,
+    "pitch": -13,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_75272a6f",
+    "lat": 41.824953,
+    "lng": -71.403185,
+    "panoId": "lRhAkAXkf6uK_W0inAkd-Q",
+    "heading": 46,
+    "pitch": 0,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_70da6c32",
+    "lat": 41.82501,
+    "lng": -71.402865,
+    "panoId": "TxKszbkGFGkhLUSlts-BnQ",
+    "heading": 44,
+    "pitch": 5,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_24aebb7a",
+    "lat": 41.826337,
+    "lng": -71.405249,
+    "panoId": "CAoSF0NJSE0wb2dLRUlDQWdJREdrTTdZNlFF",
+    "heading": 220,
+    "pitch": 18,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_8edbcdb8",
+    "lat": 41.826553,
+    "lng": -71.40024,
+    "panoId": "28zdNMSlf34JXwGPbidPlg",
+    "heading": 24,
+    "pitch": 0,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_17be13c2",
+    "lat": 41.827253,
+    "lng": -71.401753,
+    "panoId": "7v5_x5Ssb_ugf-sPuQlXNw",
+    "heading": 0,
+    "pitch": 0,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_d8016976",
+    "lat": 41.827395,
+    "lng": -71.400325,
+    "panoId": "CAoSFkNJSE0wb2dLRUlDQWdJQ0VudVQ5R2c.",
+    "heading": 254,
+    "pitch": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_010d8f93",
+    "lat": 41.826854,
+    "lng": -71.400929,
+    "panoId": "CAoSFkNJSE0wb2dLRUlDQWdJRHE4LU9nTVE.",
+    "heading": 160,
+    "pitch": 4,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_f865903c",
+    "lat": 41.826266,
+    "lng": -71.402147,
+    "panoId": "CAoSF0NJSE0wb2dLRUlDQWdJRDQyc1BZdXdF",
+    "heading": 79,
+    "pitch": -4,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_5ede5a1c",
+    "lat": 41.828337,
+    "lng": -71.40329,
+    "panoId": "XxOQAswQznQffOpveSGBRQ",
+    "heading": 79,
+    "pitch": -4,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_204ccba5",
+    "lat": 41.830602,
+    "lng": -71.405598,
+    "panoId": "Wd9wzjrkLdi1YmGBzdOLkg",
+    "heading": 284,
+    "pitch": -11,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_6b548b7e",
+    "lat": 41.830013,
+    "lng": -71.407105,
+    "panoId": "CAoSF0NJSE0wb2dLRUlDQWdJQ2t6TEN6eUFF",
+    "heading": 259,
+    "pitch": -14,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_1205b272",
+    "lat": 41.829917,
+    "lng": -71.405924,
+    "panoId": "CAoSF0NJSE0wb2dLRUlDQWdJRFd5SXV2dEFF",
+    "heading": 208,
+    "pitch": -4,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_dfa69fca",
+    "lat": 41.827943,
+    "lng": -71.402334,
+    "panoId": "a7UB4kiY20QLw1-Ieg8cNg",
+    "heading": 325,
+    "pitch": -12,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_1bf0b0c0",
+    "lat": 41.82725,
+    "lng": -71.405434,
+    "panoId": "CAoSF0NJSE0wb2dLRUlDQWdJREdrUGFscHdF",
+    "heading": 204,
+    "pitch": -9,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_88073d39",
+    "lat": 41.827132,
+    "lng": -71.406059,
+    "panoId": "CAoSFkNJSE0wb2dLRUlDQWdJRHFqY2lVV3c.",
+    "heading": 334,
+    "pitch": -4,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_749b8ebf",
+    "lat": 41.82731,
+    "lng": -71.406316,
+    "panoId": "CAoSFkNJSE0wb2dLRUlDQWdJRHFqY2lVTXc.",
+    "heading": 75,
+    "pitch": 9,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_174f6b26",
+    "lat": 41.827176,
+    "lng": -71.406305,
+    "panoId": "CAoSFkNJSE0wb2dLRUlDQWdJRHFqY2lVQ3c.",
+    "heading": 314,
+    "pitch": 10,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_864aa201",
+    "lat": 41.826442,
+    "lng": -71.407878,
+    "panoId": "CAoSFkNJSE0wb2dLRUlDQWdJQ0VudVNOUmc.",
+    "heading": 356,
+    "pitch": 11,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_4f71af46",
+    "lat": 41.825848,
+    "lng": -71.408448,
+    "panoId": "CAoSFkNJSE0wb2dLRUlDQWdJREdrTGFHRHc.",
+    "heading": 266,
+    "pitch": -1,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_02139af8",
+    "lat": 41.82521,
+    "lng": -71.40788,
+    "panoId": "8fC1XHxoLFjA_oLkdNuT-w",
+    "heading": 178,
+    "pitch": -3,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_4b8edfcc",
+    "lat": 41.822921,
+    "lng": -71.403168,
+    "panoId": "CAoSF0NJSE0wb2dLRUlDQWdJQ3NnT3VrZ0FF",
+    "heading": 279,
+    "pitch": -4,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_6625ed1d",
+    "lat": 41.818074,
+    "lng": -71.402195,
+    "panoId": "uQ2ot1VXuIUO3QX8KRr97g",
+    "heading": 212,
+    "pitch": -2,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_67a6859b",
+    "lat": 41.818045,
+    "lng": -71.403709,
+    "panoId": "CAoSFkNJSE0wb2dLRUlDQWdJQ0d3NE92WGc.",
+    "heading": 347,
+    "pitch": -2,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_4f6bea39",
+    "lat": 41.82375,
+    "lng": -71.403876,
+    "panoId": "Lbw-tG_LY1s83k23bC3SjA",
+    "heading": 62,
+    "pitch": 6,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_b4496205",
+    "lat": 41.824589,
+    "lng": -71.404008,
+    "panoId": "uq5pSxjNHWMDZWnAZFMSNg",
+    "heading": 173,
+    "pitch": 12,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_8ab97ce2",
+    "lat": 41.830969,
+    "lng": -71.414914,
+    "panoId": "CAoSF0NJSE0wb2dLRUlDQWdJRFNpNGYxeEFF",
+    "heading": 1,
+    "pitch": -22,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_3e5299dd",
+    "lat": 41.831677,
+    "lng": -71.414858,
+    "panoId": "iz443Em25jOnGmKI8SPO4g",
+    "heading": 179,
+    "pitch": -14,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_09ab2b97",
+    "lat": 41.827398,
+    "lng": -71.416418,
+    "panoId": "CAoSFkNJSE0wb2dLRUlDQWdJQ0VfXzdlQnc.",
+    "heading": 59,
+    "pitch": -15,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_bc48da15",
+    "lat": 41.835227,
+    "lng": -71.40319,
+    "panoId": "PgABtUg_9QQSrwJYtXsb6Q",
+    "heading": 122,
+    "pitch": 7,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_f2f65289",
+    "lat": 41.833134,
+    "lng": -71.400606,
+    "panoId": "Yi-dN2TKwYfChPyN6EBm-w",
+    "heading": 148,
+    "pitch": -13,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_ce114641",
+    "lat": 41.83101,
+    "lng": -71.397612,
+    "panoId": "lyA-cbs0gsJCEfjxBD6Dwg",
+    "heading": 256,
+    "pitch": -16,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_4083a985",
+    "lat": 41.829863,
+    "lng": -71.394167,
+    "panoId": "AAKo0veXKX_7_t497cM-zw",
+    "heading": 176,
+    "pitch": -13,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_108e1878",
+    "lat": 41.830083,
+    "lng": -71.387918,
+    "panoId": "sOvNOpVfMgVHjJHxQ6DQug",
+    "heading": 268,
+    "pitch": -7,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_2daf892f",
+    "lat": 41.828681,
+    "lng": -71.388369,
+    "panoId": "h2njC3hu1V-5iYcGSlmpVQ",
+    "heading": 268,
+    "pitch": -7,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_6da07883",
+    "lat": 41.828084,
+    "lng": -71.386213,
+    "panoId": "8WVgnYXJ0UWREiPlccuxoQ",
+    "heading": 190,
+    "pitch": -16,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_9b19bfb3",
+    "lat": 41.822024,
+    "lng": -71.388888,
+    "panoId": "J4ydUXyuRolZE0T5irvIWQ",
+    "heading": 84,
+    "pitch": -17,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_4abd7a25",
+    "lat": 41.819684,
+    "lng": -71.388541,
+    "panoId": "dUfRpTQIovGRXBgpxSDeqQ",
+    "heading": 21,
+    "pitch": -7,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_a8592441",
+    "lat": 41.817374,
+    "lng": -71.390696,
+    "panoId": "Yu63KWLcnGgc3frmyupKrQ",
+    "heading": 316,
+    "pitch": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_34c5037a",
+    "lat": 41.817865,
+    "lng": -71.388154,
+    "panoId": "EJnAlrYg1UyFGPOldDhtlg",
+    "heading": 153,
+    "pitch": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_46bdb838",
+    "lat": 41.816901,
+    "lng": -71.388548,
+    "panoId": "CxbxDFKC6iSzKDlvXGqR8w",
+    "heading": 153,
+    "pitch": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_22f9e5b7",
+    "lat": 41.817691,
+    "lng": -71.39393,
+    "panoId": "WQAYc4BRYADwmUVQdSl8_g",
+    "heading": 153,
+    "pitch": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_8edb3d9f",
+    "lat": 41.817144,
+    "lng": -71.396452,
+    "panoId": "Z1HqfOKlA3cOBUu5ZJklMQ",
+    "heading": 304,
+    "pitch": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_242e0ef8",
+    "lat": 41.815816,
+    "lng": -71.400139,
+    "panoId": "CXeM5Cn4NeydP89nHcG-Lw",
+    "heading": 304,
+    "pitch": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_a9d04d22",
+    "lat": 41.817139,
+    "lng": -71.400749,
+    "panoId": "yEgrCuCpxlgasdFLr5MEkA",
+    "heading": 228,
+    "pitch": -12,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_6012bdc9",
+    "lat": 41.826893,
+    "lng": -71.414399,
+    "panoId": "ORY4i4-Mnpjtp74F9tY93g",
+    "heading": 107,
+    "pitch": -4,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_30b3b47b",
+    "lat": 41.827163,
+    "lng": -71.413793,
+    "panoId": "DS6dLOODr0zEd1-qhNvO7w",
+    "heading": 107,
+    "pitch": -4,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_4821b817",
+    "lat": 41.825446,
+    "lng": -71.412093,
+    "panoId": "W5w0MjsUoBm_KaM4gFuK5w",
+    "heading": 341,
+    "pitch": -11,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_9c9f79c2",
+    "lat": 41.824584,
+    "lng": -71.411696,
+    "panoId": "ANg9rf1fVeE7bbm9E2HZcA",
+    "heading": 275,
+    "pitch": -12,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_3898df5d",
+    "lat": 41.824846,
+    "lng": -71.409738,
+    "panoId": "PXG62sJCRJnljs8LdPYcQQ",
+    "heading": 319,
+    "pitch": 19,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_de04d585",
+    "lat": 41.824765,
+    "lng": -71.410055,
+    "panoId": "hHsgE_3DSLhLrwkjVqdy0w",
+    "heading": 98,
+    "pitch": -5,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_bc1cbfe0",
+    "lat": 41.825085,
+    "lng": -71.410129,
+    "panoId": "PatcTcgPXJLo7lu6OxRhDg",
+    "heading": 98,
+    "pitch": -5,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_2ca641b4",
+    "lat": 41.825149,
+    "lng": -71.409551,
+    "panoId": "XEwdAm3ocaThF9oOQfWOYw",
+    "heading": 203,
+    "pitch": 10,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_70ecb986",
+    "lat": 41.824265,
+    "lng": -71.409719,
+    "panoId": "sFJhG1jYqr2cBrzIn-qFrw",
+    "heading": 203,
+    "pitch": 10,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_319ac8b0",
+    "lat": 41.825418,
+    "lng": -71.410613,
+    "panoId": "gXAnAz12iymoNjYficA7Sw",
+    "heading": 265,
+    "pitch": 15,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_119d433e",
+    "lat": 41.821775,
+    "lng": -71.39853,
+    "panoId": "mL_wRRrY9EK0fWlMLwx0OQ",
+    "heading": 122,
+    "pitch": -12,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_277bf1e9",
+    "lat": 41.821038,
+    "lng": -71.400433,
+    "panoId": "MOvXgh9CRjjG6If6oat1Kw",
+    "heading": 299,
+    "pitch": -11,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_32dc9c0e",
+    "lat": 41.820746,
+    "lng": -71.395859,
+    "panoId": "vROOQMiPhkJWKiQrwpvwUA",
+    "heading": 71,
+    "pitch": -2,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_87e69678",
+    "lat": 41.82005,
+    "lng": -71.395512,
+    "panoId": "SyOVz7JDcSrA4GnySnER8g",
+    "heading": 270,
+    "pitch": -4,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_6d1877f4",
+    "lat": 41.818889,
+    "lng": -71.394905,
+    "panoId": "Fhv00d-0xIIVjQfudkgFng",
+    "heading": 186,
+    "pitch": -13,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_753ef9bf",
+    "lat": 41.819849,
+    "lng": -71.395338,
+    "panoId": "XYM8yOzzeoQzI4VZ9EiXoQ",
+    "heading": 27,
+    "pitch": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_4892072b",
+    "lat": 41.819527,
+    "lng": -71.397163,
+    "panoId": "rHLJ5ptRyh1VBt7qeXlWMA",
+    "heading": 42,
+    "pitch": -5,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_3ce4ad71",
+    "lat": 41.81954,
+    "lng": -71.39692,
+    "panoId": "rcAKqLB7iBRY0IeddQu5Nw",
+    "heading": 64,
+    "pitch": -8,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_c1dc5fbc",
+    "lat": 41.819634,
+    "lng": -71.397135,
+    "panoId": "CAoSHENJQUJJaEJJbXZzRlVxYW1PNTBESVFZTnlLLTY.",
+    "heading": 64,
+    "pitch": -8,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_715a0a40",
+    "lat": 41.81922,
+    "lng": -71.400236,
+    "panoId": "uq3om9QjOX0BXUrel-qfnQ",
+    "heading": 236,
+    "pitch": -2,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_a25b087c",
+    "lat": 41.824252,
+    "lng": -71.392402,
+    "panoId": "He_pRs9N56B-jzK7-t8q4w",
+    "heading": 100,
+    "pitch": 5,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_ec180cb1",
+    "lat": 41.835784,
+    "lng": -71.379182,
+    "panoId": "RtWZxtcff1OK7-5t4CeRIg",
+    "heading": 285,
+    "pitch": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_9ed30a34",
+    "lat": 41.847592,
+    "lng": -71.404733,
+    "panoId": "PkSqUtAJZhKaucau5CMEEA",
+    "heading": 162,
+    "pitch": 5,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_df0a67f8",
+    "lat": 41.843618,
+    "lng": -71.43628,
+    "panoId": "-7wn7crUnpmWmgXKowxgLA",
+    "heading": 124,
+    "pitch": -5,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_86f2dcf5",
+    "lat": 41.831366,
+    "lng": -71.395413,
+    "panoId": "rm-u_aXzwafvhXzkH62evQ",
+    "heading": 77,
+    "pitch": 11,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_fb8fdf37",
+    "lat": 41.827608,
+    "lng": -71.397236,
+    "panoId": "xRGsekx2CTUOTzTRe4LW_Q",
+    "heading": 93,
+    "pitch": 9,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_fc4d4ffc",
+    "lat": 41.841871,
+    "lng": -71.394533,
+    "panoId": "RDy7j0nV7UZK85T6ot03zw",
+    "heading": 332,
+    "pitch": 9,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_15a9e400",
+    "lat": 41.842117,
+    "lng": -71.394339,
+    "panoId": "CAoSHENJQUJJaEFBM2pVM3Vqa19ObWZBQUxBQUREYS0.",
+    "heading": 7,
+    "pitch": -24,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_1f0be5af",
+    "lat": 41.841288,
+    "lng": -71.393365,
+    "panoId": "KHJBmTBwyP9DLCdQ7-RXQw",
+    "heading": 243,
+    "pitch": -6,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_54078c89",
+    "lat": 41.819643,
+    "lng": -71.398295,
+    "panoId": "yDpsSjkBHDsCmTRm0vI_QQ",
+    "heading": 227,
+    "pitch": -10,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_5b8671d4",
+    "lat": 41.823489,
+    "lng": -71.404587,
+    "panoId": "5rIEEg1LAezpC5ZqKVXmvg",
+    "heading": 322,
+    "pitch": -12,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_7624f340",
+    "lat": 41.82426,
+    "lng": -71.405711,
+    "panoId": "BhD72Xw-J7hDe7Wvi94XVg",
+    "heading": 326,
+    "pitch": -8,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_84fc6d1e",
+    "lat": 41.823982,
+    "lng": -71.405651,
+    "panoId": "o2112_b6xU6TrcQaGjrndw",
+    "heading": 188,
+    "pitch": 16,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_d694639c",
+    "lat": 41.824167,
+    "lng": -71.404746,
+    "panoId": "R_Wdkd8wrVMxie_JTFXq2A",
+    "heading": 79,
+    "pitch": 10,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_dc014014",
+    "lat": 41.822333,
+    "lng": -71.404225,
+    "panoId": "FttscewWF7dakyiNFVflng",
+    "heading": 336,
+    "pitch": -4,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_7e9fc495",
+    "lat": 41.822288,
+    "lng": -71.406147,
+    "panoId": "e6VahUNuzgKZPOSAwaCK4Q",
+    "heading": 320,
+    "pitch": -9,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_d9f86f69",
+    "lat": 41.822493,
+    "lng": -71.407299,
+    "panoId": "3Q9UHHfqqAN8KptLknA0rw",
+    "heading": 89,
+    "pitch": -7,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_ebb92e99",
+    "lat": 41.823901,
+    "lng": -71.394108,
+    "panoId": "G29bla4ji7hJDrXY4FRyYA",
+    "heading": 1,
+    "pitch": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_eaf751a8",
+    "lat": 41.821798,
+    "lng": -71.394886,
+    "panoId": "nSv71qELjX8XwNvQ8qqMEg",
+    "heading": 167,
+    "pitch": 7,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_875ed728",
+    "lat": 41.823856,
+    "lng": -71.390497,
+    "panoId": "O-USvBN0w1O-iC0MtgQz2Q",
+    "heading": 311,
+    "pitch": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_ad9ea71e",
+    "lat": 41.829038,
+    "lng": -71.393974,
+    "panoId": "8qbXKFehdvwugzq8E-Ghdg",
+    "heading": 71,
+    "pitch": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_8110ec8b",
+    "lat": 41.831687,
+    "lng": -71.380209,
+    "panoId": "86N9hMm93vRUNg4xMossYg",
+    "heading": 89,
+    "pitch": -12,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_c19dd4cf",
+    "lat": 41.831787,
+    "lng": -71.393494,
+    "panoId": "tJ_OOC4JWhxMeHj0GaY4vQ",
+    "heading": 266,
+    "pitch": 6,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_14207c91",
+    "lat": 41.830095,
+    "lng": -71.396766,
+    "panoId": "DHYl6Nij8XN2dFyIO5WNAQ",
+    "heading": 24,
+    "pitch": -5,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_310e542a",
+    "lat": 41.829304,
+    "lng": -71.398914,
+    "panoId": "2Nys1e53dBPvDG-jmfzyyQ",
+    "heading": 330,
+    "pitch": -6,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_49b2c16f",
+    "lat": 41.829459,
+    "lng": -71.40243,
+    "panoId": "_NP5EifegFP44uIZQezbVg",
+    "heading": 351,
+    "pitch": -8,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_19ad5657",
+    "lat": 41.829566,
+    "lng": -71.402995,
+    "panoId": "IwAKwgnsvw324Pf7FPbkbg",
+    "heading": 110,
+    "pitch": -13,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_cf8dd53a",
+    "lat": 41.829363,
+    "lng": -71.402915,
+    "panoId": "UWoUFiZdf51V2xOVtBw3eg",
+    "heading": 197,
+    "pitch": -10,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_e003cbf2",
+    "lat": 41.829291,
+    "lng": -71.401781,
+    "panoId": "uTmwji4n7NtcZh5xaHL7hg",
+    "heading": 48,
+    "pitch": -6,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_80cfa1a0",
+    "lat": 41.829361,
+    "lng": -71.406834,
+    "panoId": "P2JbYwcArlxqhxi_8l4rAw",
+    "heading": 307,
+    "pitch": -11,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_39b8e985",
+    "lat": 41.833419,
+    "lng": -71.40414,
+    "panoId": "Ge16QEa75gg5FA-H6Oy6bg",
+    "heading": 81,
+    "pitch": -9,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_f53a3bde",
+    "lat": 41.83398,
+    "lng": -71.401378,
+    "panoId": "CqvAehgjYkBChktbLYMDdQ",
+    "heading": 214,
+    "pitch": -7,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_08fce66e",
+    "lat": 41.823055,
+    "lng": -71.394303,
+    "panoId": "-xByZq6TKSrN2OrN0Up4Fw",
+    "heading": 157,
+    "pitch": -10,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_8c2866bd",
+    "lat": 41.819564,
+    "lng": -71.391694,
+    "panoId": "mds_cVvlJoAKF1cM6Cffhg",
+    "heading": 7,
+    "pitch": 4,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_858aa7a8",
+    "lat": 41.819241,
+    "lng": -71.393231,
+    "panoId": "IihDqtISDFWYKkjBQqTH-A",
+    "heading": 253,
+    "pitch": 10,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_b8dcb7d7",
+    "lat": 41.820091,
+    "lng": -71.394627,
+    "panoId": "Q8qwIj74GOg6cwKFqpzcKw",
+    "heading": 118,
+    "pitch": -9,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_d857d0d0",
+    "lat": 41.820126,
+    "lng": -71.393383,
+    "panoId": "BWTh3Br5ry0LX5v87-1zyg",
+    "heading": 186,
+    "pitch": -3,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_71a04deb",
+    "lat": 41.817946,
+    "lng": -71.398201,
+    "panoId": "mPwlVjwt2-xrDUFdIkQj7Q",
+    "heading": 70,
+    "pitch": -6,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_4c9648f3",
+    "lat": 41.816808,
+    "lng": -71.399972,
+    "panoId": "vxNWJ53U28E1r3mnChA_dw",
+    "heading": 272,
+    "pitch": -2,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_7b5f1207",
+    "lat": 41.815294,
+    "lng": -71.389719,
+    "panoId": "ZUGLBLCvguYNKR5Y2GodRw",
+    "heading": 66,
+    "pitch": -11,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_28f7dadf",
+    "lat": 41.83445,
+    "lng": -71.390886,
+    "panoId": "Hi88FXo749i_Q8n6H-BfUA",
+    "heading": 328,
+    "pitch": 5,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_914de796",
+    "lat": 41.829356,
+    "lng": -71.400809,
+    "panoId": "4-XK-afhbxtV_jFX3ITupA",
+    "heading": 328,
+    "pitch": 5,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_808b8555",
+    "lat": 41.828876,
+    "lng": -71.400752,
+    "panoId": "BjTWldbPqQ7jTqKLT3t2Fw",
+    "heading": 328,
+    "pitch": 5,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_7b8acaf1",
+    "lat": 41.828417,
+    "lng": -71.4007,
+    "panoId": "XTs84X9Sl0tdAtUdyj_3Ww",
+    "heading": 328,
+    "pitch": 5,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_be729994",
+    "lat": 41.827847,
+    "lng": -71.400644,
+    "panoId": "jumEta0vUB9lRGtUNF6pDA",
+    "heading": 328,
+    "pitch": 5,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_fd9d8cf7",
+    "lat": 41.827412,
+    "lng": -71.400574,
+    "panoId": "c1EsvRr2xeywy0EtpWuVkQ",
+    "heading": 328,
+    "pitch": 5,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_f9ae7118",
+    "lat": 41.826471,
+    "lng": -71.401205,
+    "panoId": "dAgjvXA-QAuEcjo3dgJRHg",
+    "heading": 328,
+    "pitch": 5,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_f8033f7a",
+    "lat": 41.825692,
+    "lng": -71.400368,
+    "panoId": "w2dMm62NTG-ksZCf1N6T-A",
+    "heading": 328,
+    "pitch": 5,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_beb84ac7",
+    "lat": 41.824281,
+    "lng": -71.400216,
+    "panoId": "hHjI0Rtu1uqusfBe68atAg",
+    "heading": 51,
+    "pitch": 14,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_b3f0d0b5",
+    "lat": 41.823509,
+    "lng": -71.400547,
+    "panoId": "QYFA6Skd8xjURVTKktIw4Q",
+    "heading": 286,
+    "pitch": 10,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_590f360e",
+    "lat": 41.823361,
+    "lng": -71.400919,
+    "panoId": "50LHXqDdIoCxoWxg2OAK-w",
+    "heading": 286,
+    "pitch": 10,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_42436fc8",
+    "lat": 41.823707,
+    "lng": -71.401285,
+    "panoId": "Dr1qPRSz41pyYT_Nrc70bg",
+    "heading": 92,
+    "pitch": -10,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_ccfcade8",
+    "lat": 41.822655,
+    "lng": -71.399977,
+    "panoId": "okdsNmaxxQkGL-w8VR9k_w",
+    "heading": 148,
+    "pitch": -18,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_af574c99",
+    "lat": 41.821778,
+    "lng": -71.39989,
+    "panoId": "cH3Ku-c_9AKz78yOJWuemg",
+    "heading": 225,
+    "pitch": 6,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_59915ce6",
+    "lat": 41.821231,
+    "lng": -71.399851,
+    "panoId": "2o3FuMmzDa9oZahs-kjPlw",
+    "heading": 204,
+    "pitch": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_eb56bd04",
+    "lat": 41.820585,
+    "lng": -71.399824,
+    "panoId": "SL3IeXk-vQFT8kxpgquncQ",
+    "heading": 4,
+    "pitch": 6,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_96b6363a",
+    "lat": 41.821999,
+    "lng": -71.404708,
+    "panoId": "dHUXP0hGy4WkWJMCGeokIg",
+    "heading": 260,
+    "pitch": 0,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_8a12d446",
+    "lat": 41.822757,
+    "lng": -71.405443,
+    "panoId": "C_J6d9sJ-ka4JfeSnreeww",
+    "heading": 260,
+    "pitch": 0,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_c6db713e",
+    "lat": 41.820261,
+    "lng": -71.403141,
+    "panoId": "omjZJq8uFW-N4Q1EljjfwA",
+    "heading": 274,
+    "pitch": -19,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_873bfb2d",
+    "lat": 41.826053,
+    "lng": -71.405994,
+    "panoId": "otAGbxDlMex2nIeOVx_QXQ",
+    "heading": 94,
+    "pitch": -3,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_74cc9009",
+    "lat": 41.826388,
+    "lng": -71.411254,
+    "panoId": "tOxsaAX8AOLVEtC3dFziFg",
+    "heading": 228,
+    "pitch": 12,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_b75adf06",
+    "lat": 41.829222,
+    "lng": -71.410122,
+    "panoId": "DMTtH0YDUIBZeerQaqUUYQ",
+    "heading": 350,
+    "pitch": -10,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_ec4a2266",
+    "lat": 41.82872,
+    "lng": -71.412735,
+    "panoId": "9-p4B7iXiBke3WNIrOVydg",
+    "heading": 350,
+    "pitch": -10,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_a10bd2e1",
+    "lat": 41.828628,
+    "lng": -71.413388,
+    "panoId": "Qtw14IkiuvkHE5rcnHgNRA",
+    "heading": 350,
+    "pitch": -10,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_a77e4219",
+    "lat": 41.829502,
+    "lng": -71.413734,
+    "panoId": "CAoSF0NJSE0wb2dLRUlDQWdJRGEwLUNQMFFF",
+    "heading": 144,
+    "pitch": -5,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_623a95aa",
+    "lat": 41.828345,
+    "lng": -71.415254,
+    "panoId": "23C4JfHzQH_JGQyUX6c4Bw",
+    "heading": 144,
+    "pitch": -5,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_53c32e6a",
+    "lat": 41.828169,
+    "lng": -71.415287,
+    "panoId": "s63NyMpfV3mpaw5EbX11Ig",
+    "heading": 314,
+    "pitch": 6,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_9fb24059",
+    "lat": 41.829241,
+    "lng": -71.415855,
+    "panoId": "ChQZ4nVIKV6qYiKZ_kgYyQ",
+    "heading": 138,
+    "pitch": -10,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_79033526",
+    "lat": 41.828724,
+    "lng": -71.417821,
+    "panoId": "uXWzNKO2AhzlS4xMAx1YVg",
+    "heading": 185,
+    "pitch": 10,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_0b99f601",
+    "lat": 41.827847,
+    "lng": -71.417532,
+    "panoId": "Q18Wm0im7GH3Ps8SD5THNQ",
+    "heading": 356,
+    "pitch": 14,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_2db1c18b",
+    "lat": 41.821417,
+    "lng": -71.406533,
+    "panoId": "Fzu_Jw36WPVDapJ0-WnEZQ",
+    "heading": 330,
+    "pitch": -4,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_8bb4e7c6",
+    "lat": 41.821105,
+    "lng": -71.390186,
+    "panoId": "tln8qYGDbQhQ3Uyb2htsVQ",
+    "heading": 340,
+    "pitch": 6,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_df8eb191",
+    "lat": 41.824394,
+    "lng": -71.396352,
+    "panoId": "YYsS749_6VNAYE3JFziIuw",
+    "heading": 193,
+    "pitch": 7,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_4e98df05",
+    "lat": 41.824597,
+    "lng": -71.396061,
+    "panoId": "vGyYAxBAQG8lmtm9XefXvA",
+    "heading": 37,
+    "pitch": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_c2c50005",
+    "lat": 41.82431,
+    "lng": -71.395937,
+    "panoId": "EFFvUs3oE8YZn8GFUoI1Iw",
+    "heading": 278,
+    "pitch": -14,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_486aa9cf",
+    "lat": 41.823915,
+    "lng": -71.397123,
+    "panoId": "aX-TIaH1O4xEpszs-Arljw",
+    "heading": 140,
+    "pitch": -5,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_bcc97abd",
+    "lat": 41.823295,
+    "lng": -71.396109,
+    "panoId": "zmJH9xA3dQHsCHZhy1kDmA",
+    "heading": 325,
+    "pitch": 4,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_e7261cbc",
+    "lat": 41.823281,
+    "lng": -71.396231,
+    "panoId": "XjFvhdC6m5AtbFYZYUp2Xg",
+    "heading": 325,
+    "pitch": 4,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_4c8d495e",
+    "lat": 41.823266,
+    "lng": -71.396353,
+    "panoId": "gcBslJBC6Q5LlkNoMmyaOA",
+    "heading": 351,
+    "pitch": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_fadd20dd",
+    "lat": 41.823276,
+    "lng": -71.397006,
+    "panoId": "OYg9yh4WE2WNR3c7Hw5BXw",
+    "heading": 351,
+    "pitch": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_2895d9a3",
+    "lat": 41.822928,
+    "lng": -71.398686,
+    "panoId": "X_PL1YfUr7GWcVLDnKielQ",
+    "heading": 152,
+    "pitch": 10,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_2b9288b4",
+    "lat": 41.823593,
+    "lng": -71.389285,
+    "panoId": "xnfERhQ2f_TJ0HDNkbS3yg",
+    "heading": 101,
+    "pitch": -8,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_d43ffa4b",
+    "lat": 41.823853,
+    "lng": -71.38913,
+    "panoId": "c5BCk-BAIHOxu-unPyyZSA",
+    "heading": 101,
+    "pitch": -8,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_0e6dabce",
+    "lat": 41.823856,
+    "lng": -71.388015,
+    "panoId": "7e2P2-7jfDHKl2KUp1jmmw",
+    "heading": 284,
+    "pitch": -10,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_eb997e61",
+    "lat": 41.825078,
+    "lng": -71.386375,
+    "panoId": "Z7JrSIsin518BicijBdRzQ",
+    "heading": 184,
+    "pitch": -2,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_9f7c28f1",
+    "lat": 41.827381,
+    "lng": -71.380994,
+    "panoId": "PUvcMaIBLDv0DU29qcubxw",
+    "heading": 199,
+    "pitch": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_12e60883",
+    "lat": 41.827247,
+    "lng": -71.381559,
+    "panoId": "dPIr0wUtJBQ5Ulm977fHRQ",
+    "heading": 342,
+    "pitch": -1,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_6659ae04",
+    "lat": 41.830053,
+    "lng": -71.382196,
+    "panoId": "f7YqOIs1AyOLxndd9wE5mA",
+    "heading": 226,
+    "pitch": 11,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_725ee751",
+    "lat": 41.831046,
+    "lng": -71.382336,
+    "panoId": "jThypylgh5sm0XBwKZgBMA",
+    "heading": 134,
+    "pitch": 3,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_a544d7b4",
+    "lat": 41.833312,
+    "lng": -71.380698,
+    "panoId": "3qb76-UxrFT4Y6ls5-FgCw",
+    "heading": 3,
+    "pitch": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_b52ae5e1",
+    "lat": 41.83755,
+    "lng": -71.38067,
+    "panoId": "mz7U5iVcDq1hSQjLdWfmxw",
+    "heading": 96,
+    "pitch": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_4edf461e",
+    "lat": 41.839014,
+    "lng": -71.385154,
+    "panoId": "HnrvEwqOHEzl7S-E2tlXLg",
+    "heading": 172,
+    "pitch": -4,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_881053dc",
+    "lat": 41.841037,
+    "lng": -71.3861,
+    "panoId": "UO0F_HPp0xGGLGyDMPK2Zg",
+    "heading": 172,
+    "pitch": -4,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_c4346f61",
+    "lat": 41.842776,
+    "lng": -71.386074,
+    "panoId": "KerQsvNTn0o9bcQl644hgg",
+    "heading": 172,
+    "pitch": -4,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_88ee9124",
+    "lat": 41.845208,
+    "lng": -71.387133,
+    "panoId": "W3x5m3kijneCRlLlHYMc_w",
+    "heading": 172,
+    "pitch": -4,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_ce83526d",
+    "lat": 41.856649,
+    "lng": -71.391036,
+    "panoId": "_SiKKhY4Cd2Czh5KOprRvA",
+    "heading": 6,
+    "pitch": 0,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_16949c2c",
+    "lat": 41.857821,
+    "lng": -71.390689,
+    "panoId": "JUPEe0VUvvvLGRakzmihJw",
+    "heading": 258,
+    "pitch": -6,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_8c78c9b3",
+    "lat": 41.858249,
+    "lng": -71.39301,
+    "panoId": "pGlU0I7ZqZGXm3C1aSxr-w",
+    "heading": 258,
+    "pitch": -6,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_755b0ce0",
+    "lat": 41.857883,
+    "lng": -71.391813,
+    "panoId": "lubjnv50Ox4ROwxTo9MX3A",
+    "heading": 237,
+    "pitch": -5,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_42cbfded",
+    "lat": 41.856029,
+    "lng": -71.402833,
+    "panoId": "UI8blF95HOQueJpTVOBtPw",
+    "heading": 83,
+    "pitch": -8,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_94df7f02",
+    "lat": 41.868819,
+    "lng": -71.384152,
+    "panoId": "STeXnPmQyjW7CoaQD35cGA",
+    "heading": 85,
+    "pitch": 8,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_d1a506de",
+    "lat": 41.869377,
+    "lng": -71.384356,
+    "panoId": "en-YzkaIRkI9mTWbvRksXA",
+    "heading": 85,
+    "pitch": 8,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_98d2629e",
+    "lat": 41.869814,
+    "lng": -71.38453,
+    "panoId": "SgaMaaKJhR97tnpLMK7PZQ",
+    "heading": 170,
+    "pitch": -11,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_32e01477",
+    "lat": 41.869642,
+    "lng": -71.386011,
+    "panoId": "1NMJpmqnHBk5x72Z3cHkKw",
+    "heading": 80,
+    "pitch": -2,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_4a3c5baa",
+    "lat": 41.834057,
+    "lng": -71.383697,
+    "panoId": "65He35GmcNaKeFZ5bH342w",
+    "heading": 170,
+    "pitch": -12,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_570d1ab2",
+    "lat": 41.83291,
+    "lng": -71.387301,
+    "panoId": "Oqaf0JAF0-Eu5ltvFMG3ig",
+    "heading": 344,
+    "pitch": -8,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_4f24dc01",
+    "lat": 41.844061,
+    "lng": -71.437376,
+    "panoId": "1Z6UJOvjTZRH55X3-aCFeQ",
+    "heading": 344,
+    "pitch": -8,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_7e9863df",
+    "lat": 41.844051,
+    "lng": -71.432875,
+    "panoId": "Y88omfDKjZpdF40Y2PAScw",
+    "heading": 344,
+    "pitch": -8,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_38b38d7e",
+    "lat": 41.842265,
+    "lng": -71.435375,
+    "panoId": "RN54DU1p78XzxLOoGvsvmQ",
+    "heading": 165,
+    "pitch": 16,
+    "difficulty": "hard"
+  },
+  {
+    "id": "loc_8e07f89c",
+    "lat": 41.822377,
+    "lng": -71.41167,
+    "panoId": "RY8qllk1VCdSxFuEYrZ2TA",
+    "heading": 148,
+    "pitch": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_720aa912",
+    "lat": 41.822526,
+    "lng": -71.411544,
+    "panoId": "5WMCTFiePfPzFlurhZbU_Q",
+    "heading": 148,
+    "pitch": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_1c1bcd3c",
+    "lat": 41.821858,
+    "lng": -71.410636,
+    "panoId": "CTvKc5zmkhw6wZzzsG3TqA",
+    "heading": 148,
+    "pitch": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_5dcefc52",
+    "lat": 41.82111,
+    "lng": -71.411334,
+    "panoId": "5rA7-0K1C1rBCCWuQCCFkg",
+    "heading": 148,
+    "pitch": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_da7b0dfa",
+    "lat": 41.822578,
+    "lng": -71.410304,
+    "panoId": "iTsHr2IfaSNNJShQxL99nw",
+    "heading": 148,
+    "pitch": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_b32888f2",
+    "lat": 41.823451,
+    "lng": -71.410645,
+    "panoId": "3IDzhpptOfIqzkcaQ5cKmg",
+    "heading": 346,
+    "pitch": 4,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_2047be21",
+    "lat": 41.82426,
+    "lng": -71.412481,
+    "panoId": "Ot9webDQiYqnfl0apzzI2Q",
+    "heading": 99,
+    "pitch": 8,
+    "difficulty": "medium"
+  },
+  {
+    "id": "loc_ce23f422",
+    "lat": 41.825557,
+    "lng": -71.404083,
+    "panoId": "YcSSv70yCCfe6htCJm2OfA",
+    "heading": 210,
+    "pitch": 15,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_7d45bb3c",
+    "lat": 41.825652,
+    "lng": -71.404571,
+    "panoId": "PSESChbKQ8m1zzZ4velyTg",
+    "heading": 210,
+    "pitch": 15,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_903ad650",
+    "lat": 41.825217,
+    "lng": -71.405343,
+    "panoId": "9qe6LJrHtWhwHlp7D-uNQA",
+    "heading": 210,
+    "pitch": 15,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_29a21017",
+    "lat": 41.824999,
+    "lng": -71.404559,
+    "panoId": "Kz77LEGaqbofMLSiVs3V_A",
+    "heading": 207,
+    "pitch": -10,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_bf887321",
+    "lat": 41.822298,
+    "lng": -71.401528,
+    "panoId": "J-8H9v2jMXOuXyS3qjlQhQ",
+    "heading": 207,
+    "pitch": -10,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_afed473c",
+    "lat": 41.822171,
+    "lng": -71.402979,
+    "panoId": "Oau9QNbSi-oG93g2VzA6og",
+    "heading": 207,
+    "pitch": -10,
+    "difficulty": "easy"
+  },
+  {
+    "id": "loc_b3836e92",
+    "lat": 41.821093,
+    "lng": -71.398439,
+    "panoId": "VVg84pwtsLWLGCOETHe36g",
+    "heading": 335,
+    "pitch": -13,
+    "difficulty": "medium"
+  }
+]

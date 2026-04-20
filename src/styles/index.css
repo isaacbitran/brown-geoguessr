@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+  body {
+    @apply bg-cream text-ink font-body antialiased;
+    font-feature-settings: 'kern', 'liga';
+  }
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+  .smallcaps {
+    font-variant-caps: all-small-caps;
+    letter-spacing: 0.08em;
+  }
+}
+
