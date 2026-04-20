@@ -109,23 +109,28 @@ export default function Results() {
         ))}
       </ul>
 
-      <div className="w-full max-w-md flex flex-col gap-2">
-        <p className="smallcaps text-warmgray text-xs text-center">
-          Today's Leaderboard
-        </p>
+      <section className="w-full max-w-md">
+        <div className="flex items-center gap-3 mb-3">
+          <span className="h-px flex-1 bg-rule" aria-hidden />
+          <h2 className="font-serif italic text-lg text-ink whitespace-nowrap">
+            Today's Leaderboard
+          </h2>
+          <span className="h-px flex-1 bg-rule" aria-hidden />
+        </div>
+
         {board === null && !boardError && (
-          <p className="text-warmgray/60 font-ui text-xs text-center py-4">
+          <p className="text-warmgray/60 font-serif italic text-sm text-center py-6">
             Loading…
           </p>
         )}
         {boardError && (
-          <p className="text-warmgray/60 font-ui text-xs text-center py-4">
+          <p className="text-warmgray/60 font-serif italic text-sm text-center py-6">
             Leaderboard unavailable.
           </p>
         )}
         {board !== null && board.length === 0 && (
-          <p className="text-warmgray/60 font-ui text-xs text-center py-4">
-            No scores posted yet today.
+          <p className="text-warmgray/60 font-serif italic text-sm text-center py-6">
+            Awaiting challengers.
           </p>
         )}
         {board !== null && board.length > 0 && (
@@ -135,26 +140,60 @@ export default function Results() {
                 username != null &&
                 row.username === username &&
                 Math.round(row.total_m) === Math.round(total);
+              const rank = i + 1;
+              const isFirst = rank === 1;
               return (
                 <li
                   key={`${row.username}-${row.created_at}`}
-                  className={`flex justify-between border-b border-rule py-2 font-ui text-sm ${
-                    isMe ? 'text-brick font-semibold' : ''
+                  className={`relative grid grid-cols-[2.25rem_1fr_auto] items-baseline gap-3 border-b border-rule/60 py-2.5 ${
+                    isMe ? 'bg-brick/[0.04]' : ''
                   }`}
                 >
-                  <span className="flex gap-3">
-                    <span className="tabular text-warmgray w-6">{i + 1}.</span>
-                    <span>{row.username}</span>
+                  {isMe && (
+                    <span
+                      className="absolute -left-2 top-0 bottom-0 w-[2px] bg-brick"
+                      aria-hidden
+                    />
+                  )}
+                  <span
+                    className={`font-serif tabular text-right ${
+                      isFirst
+                        ? 'text-gold text-xl font-semibold'
+                        : 'text-warmgray/80 text-base'
+                    }`}
+                  >
+                    {rank}
                   </span>
-                  <span className="tabular">
-                    {Math.round(row.total_m).toLocaleString()} m
+                  <span
+                    className={`font-ui text-sm truncate flex items-baseline gap-2 ${
+                      isMe
+                        ? 'text-brick font-semibold'
+                        : isFirst
+                          ? 'text-ink font-medium'
+                          : 'text-ink'
+                    }`}
+                  >
+                    <span className="truncate">{row.username}</span>
+                    {isMe && (
+                      <span className="smallcaps text-[0.65rem] text-brick/70">
+                        you
+                      </span>
+                    )}
+                  </span>
+                  <span
+                    className={`font-ui tabular text-sm ${
+                      isMe ? 'text-brick font-semibold' : 'text-ink/85'
+                    }`}
+                  >
+                    {Math.round(row.total_m).toLocaleString()}
+                    <span className="text-warmgray/60 ml-1">m</span>
                   </span>
                 </li>
               );
             })}
           </ol>
         )}
-      </div>
+      </section>
 
       <div className="flex gap-3 flex-wrap justify-center">
         <Link
