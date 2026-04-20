@@ -24,16 +24,14 @@ export async function submitPlay(
 }
 
 export async function fetchTodayLeaderboard(
-  date: string,
-  limit = 20
+  date: string
 ): Promise<LeaderboardRow[]> {
   if (!supabase) return [];
   const { data, error } = await supabase
     .from('plays')
     .select('username, total_m, created_at')
     .eq('date', date)
-    .order('total_m', { ascending: true })
-    .limit(limit);
+    .order('total_m', { ascending: true });
   if (error) throw error;
   return data ?? [];
 }
