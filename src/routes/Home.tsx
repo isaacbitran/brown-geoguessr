@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { todayDateStr } from '../lib/daily';
 import { getUsername, getStreak, hasPlayedToday } from '../lib/storage';
-import { fetchTotalPlayers } from '../lib/supabase';
+import { fetchPlayerStats, fetchTotalPlayers } from '../lib/supabase';
 import UsernameModal from '../components/UsernameModal';
 
 function formatDate(dateStr: string): string {
@@ -21,6 +21,8 @@ export default function Home() {
   const played = hasPlayedToday(today);
   const streak = getStreak();
   const [totalPlayers, setTotalPlayers] = useState<number | null>(null);
+  const [myWins, setMyWins] = useState(0);
+  const [myTop10, setMyTop10] = useState(0);
 
   useEffect(() => {
     let cancelled = false;
@@ -29,10 +31,20 @@ export default function Home() {
         if (!cancelled) setTotalPlayers(n);
       })
       .catch(() => {});
+    if (username) {
+      fetchPlayerStats(today)
+        .then((s) => {
+          if (cancelled) return;
+          const me = s.get(username);
+          setMyWins(me?.wins ?? 0);
+          setMyTop10(me?.top10 ?? 0);
+        })
+        .catch(() => {});
+    }
     return () => {
       cancelled = true;
     };
-  }, []);
+  }, [username, today]);
 
   return (
     <div className="min-h-full flex flex-col items-center justify-center gap-6 p-8 text-center">
@@ -65,6 +77,21 @@ export default function Home() {
         <p className="text-warmgray font-ui text-sm">
           🔥 {streak} day streak
         </p>
+      )}
+
+      {(myWins > 0 || myTop10 > 0) && (
+        <div className="flex flex-col items-center gap-1">
+          {myWins > 0 && (
+            <p className="text-warmgray font-ui text-sm">
+              🥇 {myWins} {myWins === 1 ? 'win' : 'wins'}
+            </p>
+          )}
+          {myTop10 > 0 && (
+            <p className="text-warmgray font-ui text-sm">
+              ⭐ {myTop10} top-10 {myTop10 === 1 ? 'finish' : 'finishes'}
+            </p>
+          )}
+        </div>
       )}
 
       {username && (

@@ -2,7 +2,12 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { todayDateStr } from '../lib/daily';
 import { getLastResult, getStreak, getUsername, hasPlayedToday } from '../lib/storage';
-import { fetchTodayLeaderboard, type LeaderboardRow } from '../lib/supabase';
+import {
+  fetchPlayerStats,
+  fetchTodayLeaderboard,
+  type LeaderboardRow,
+  type PlayerStats,
+} from '../lib/supabase';
 import type { RoundResult } from '../types';
 
 function formatDate(dateStr: string): string {
@@ -36,6 +41,7 @@ export default function Results() {
   const [board, setBoard] = useState<LeaderboardRow[] | null>(null);
   const [boardError, setBoardError] = useState(false);
   const [tab, setTab] = useState<'leaderboard' | 'rounds'>('leaderboard');
+  const [stats, setStats] = useState<Map<string, PlayerStats> | null>(null);
   const watermarkRef = useRef<HTMLDivElement>(null);
 
   // Rounds tab uses JS parallax (short pages work better with scrollY * k).
@@ -83,6 +89,11 @@ export default function Results() {
       .catch(() => {
         if (!cancelled) setBoardError(true);
       });
+    fetchPlayerStats(today)
+      .then((s) => {
+        if (!cancelled) setStats(s);
+      })
+      .catch(() => {});
     return () => {
       cancelled = true;
     };
@@ -250,13 +261,27 @@ export default function Results() {
                         {rank}
                       </span>
                       <span
-                        className={`font-body text-base truncate ${
+                        className={`font-body text-base truncate flex items-baseline gap-2 ${
                           isMe
                             ? 'text-cream font-semibold'
                             : `text-ink ${isFirst ? 'font-semibold' : ''}`
                         }`}
                       >
-                        {row.username}
+                        <span className="truncate">{row.username}</span>
+                        {(() => {
+                          const wins = stats?.get(row.username)?.wins ?? 0;
+                          if (wins <= 0) return null;
+                          return (
+                            <span
+                              className={`font-ui text-[0.7rem] tabular flex-shrink-0 ${
+                                isMe ? 'text-cream/90' : 'text-gold'
+                              }`}
+                              title={`${wins} previous ${wins === 1 ? 'win' : 'wins'}`}
+                            >
+                              🥇{wins > 1 ? ` ×${wins}` : ''}
+                            </span>
+                          );
+                        })()}
                       </span>
                       <span
                         className={`font-body tabular text-base text-right ${
