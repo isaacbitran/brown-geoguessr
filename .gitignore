@@ -8,4 +8,5 @@ dist
 .claude/
 tsconfig.tsbuildinfo
 scripts/*.png
+scripts/__pycache__/
 Screenshot*.png

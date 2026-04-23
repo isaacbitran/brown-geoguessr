@@ -48,6 +48,61 @@ export interface PlayerStats {
   top10: number;
 }
 
+export interface ChampionRecord {
+  username: string;
+  total_m: number;
+}
+
+export interface WorldRecord {
+  username: string;
+  total_m: number;
+  date: string;
+}
+
+// All-time best scores across every play ever submitted. Deduped per user
+// (their personal best only) so a single dominant player can't hog the list.
+export async function fetchTopRecords(limit = 5): Promise<WorldRecord[]> {
+  if (!supabase) return [];
+  // Overshoot the limit to leave room for dedup, then trim.
+  const { data, error } = await supabase
+    .from('plays')
+    .select('username, total_m, date')
+    .order('total_m', { ascending: true })
+    .limit(limit * 5);
+  if (error) throw error;
+  const seen = new Map<string, WorldRecord>();
+  for (const r of (data ?? []) as WorldRecord[]) {
+    if (!seen.has(r.username)) seen.set(r.username, r);
+  }
+  return Array.from(seen.values()).slice(0, limit);
+}
+
+// Returns yesterday's top finishers (deduped to best score per user, sorted
+// best→worst). Caller can split into winner(s) + runners-up by checking
+// which leading entries share the minimum total_m.
+export async function fetchYesterdayChampions(
+  yesterdayStr: string,
+  limit = 3
+): Promise<ChampionRecord[]> {
+  if (!supabase) return [];
+  const { data, error } = await supabase
+    .from('plays')
+    .select('username, total_m')
+    .eq('date', yesterdayStr)
+    .order('total_m', { ascending: true });
+  if (error) throw error;
+  if (!data || data.length === 0) return [];
+  const bestPerUser = new Map<string, number>();
+  for (const r of data as ChampionRecord[]) {
+    const prev = bestPerUser.get(r.username);
+    if (prev == null || r.total_m < prev) bestPerUser.set(r.username, r.total_m);
+  }
+  return Array.from(bestPerUser.entries())
+    .map(([username, total_m]) => ({ username, total_m }))
+    .sort((a, b) => a.total_m - b.total_m)
+    .slice(0, limit);
+}
+
 // Aggregates historical wins + top-10 finishes per username, from completed
 // past dates only (pass `excludeDate` = today so today's unfinished edition
 // doesn't count toward anyone's record). Ties for 1st all count as wins.
