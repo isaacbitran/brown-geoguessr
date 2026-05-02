@@ -34,5 +34,18 @@
       will-change: transform;
     }
   }
+
+  /* Falling-widget lanes on the home page sidebars. Uses viewport-relative
+     start so all widgets — regardless of their own height — travel the same
+     absolute distance. This guarantees widgets at the same animation progress
+     in different lanes have their headers at the same Y. */
+  @keyframes fall-lane {
+    0%   { transform: translate3d(0, -50vh, 0); }
+    100% { transform: translate3d(0, 100vh, 0); }
+  }
+  .fall-widget {
+    animation: fall-lane 30s linear infinite;
+    will-change: transform;
+  }
 }
 

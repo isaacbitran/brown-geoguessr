@@ -5,6 +5,11 @@ const key = import.meta.env.VITE_SUPABASE_ANON_KEY as string | undefined;
 
 export const supabase = url && key ? createClient(url, key) : null;
 
+// Postgrest defaults to a 1000-row cap when no explicit limit is set, which
+// silently truncated whole-table queries once the plays table passed 1000.
+// Set a generous explicit ceiling for table-wide aggregations.
+const MAX_ROWS = 50_000;
+
 export interface LeaderboardRow {
   username: string;
   total_m: number;
@@ -38,7 +43,10 @@ export async function fetchTodayLeaderboard(
 
 export async function fetchTotalPlayers(): Promise<number> {
   if (!supabase) return 0;
-  const { data, error } = await supabase.from('plays').select('username');
+  const { data, error } = await supabase
+    .from('plays')
+    .select('username')
+    .limit(MAX_ROWS);
   if (error) throw error;
   return new Set((data ?? []).map((r) => r.username)).size;
 }
@@ -51,6 +59,75 @@ export interface PlayerStats {
 export interface ChampionRecord {
   username: string;
   total_m: number;
+}
+
+export interface StreakRecord {
+  username: string;
+  streak: number;
+}
+
+// Computes each player's CURRENT consecutive-day play streak ending at their
+// most recent play, and returns the top N. Filtered to only "active" streaks
+// (most recent play was today or yesterday).
+export async function fetchTopStreaks(limit = 5): Promise<StreakRecord[]> {
+  if (!supabase) return [];
+  const { data, error } = await supabase
+    .from('plays')
+    .select('username, date')
+    .limit(MAX_ROWS);
+  if (error) throw error;
+
+  const datesByUser = new Map<string, Set<string>>();
+  for (const r of (data ?? []) as Array<{ username: string; date: string }>) {
+    let set = datesByUser.get(r.username);
+    if (!set) {
+      set = new Set();
+      datesByUser.set(r.username, set);
+    }
+    set.add(r.date);
+  }
+
+  const today = new Date();
+  const yest = new Date(today);
+  yest.setDate(today.getDate() - 1);
+  const yestStr =
+    yest.getFullYear() +
+    '-' +
+    String(yest.getMonth() + 1).padStart(2, '0') +
+    '-' +
+    String(yest.getDate()).padStart(2, '0');
+
+  const prevDay = (s: string): string => {
+    const d = new Date(s + 'T00:00:00');
+    d.setDate(d.getDate() - 1);
+    return (
+      d.getFullYear() +
+      '-' +
+      String(d.getMonth() + 1).padStart(2, '0') +
+      '-' +
+      String(d.getDate()).padStart(2, '0')
+    );
+  };
+
+  const result: StreakRecord[] = [];
+  for (const [username, dates] of datesByUser) {
+    const mostRecent = Array.from(dates).sort().pop();
+    if (!mostRecent || mostRecent < yestStr) continue;
+    let streak = 0;
+    let cursor = mostRecent;
+    while (dates.has(cursor)) {
+      streak += 1;
+      cursor = prevDay(cursor);
+    }
+    result.push({ username, streak });
+  }
+
+  return result
+    .sort(
+      (a, b) =>
+        b.streak - a.streak || a.username.localeCompare(b.username)
+    )
+    .slice(0, limit);
 }
 
 export interface WorldRecord {
@@ -111,7 +188,10 @@ export async function fetchPlayerStats(
   excludeDate?: string
 ): Promise<Map<string, PlayerStats>> {
   if (!supabase) return new Map();
-  let q = supabase.from('plays').select('date, username, total_m');
+  let q = supabase
+    .from('plays')
+    .select('date, username, total_m')
+    .limit(MAX_ROWS);
   if (excludeDate) q = q.neq('date', excludeDate);
   const { data, error } = await q;
   if (error) throw error;
