@@ -278,7 +278,7 @@ export default function Results() {
                               }`}
                               title={`${wins} previous ${wins === 1 ? 'win' : 'wins'}`}
                             >
-                              🥇{wins > 1 ? ` ×${wins}` : ''}
+                              {'🥇'.repeat(wins)}
                             </span>
                           );
                         })()}
